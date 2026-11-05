@@ -6,16 +6,16 @@ external images.
 
 ## Features
 
-- **Dog Encyclopedia** — Beagle, Golden Retriever and Poodle, each with its own SVG
+- Dog Encyclopedia: Beagle, Golden Retriever and Poodle, each with its own SVG
   illustration and short notes on size, personality and everyday care.
-- **Adopt one dog** — choose a breed, type a name of up to 20 characters, then adopt.
+- Adopt one dog: choose a breed, type a name of up to 20 characters, then adopt.
   Spaces at both ends are removed, and an empty name is rejected.
-- **Feed and Play** — each click adds 10 happiness, and happiness never goes above 100.
-- **Next Day** — moves the dog one day forward and drops happiness by 5, never below 0.
-- **Growth** — Day 1 is a Puppy, Days 2–3 a Young Dog, and Day 4 onward an Adult Dog.
+- Feed and Play: each click adds 10 happiness, and happiness never goes above 100.
+- Next Day: moves the dog one day forward and drops happiness by 5, never below 0.
+- Growth: Day 1 is a Puppy, Days 2 and 3 a Young Dog, and Day 4 onward an Adult Dog.
   The stage is shown as words, as a growth bar, and as the size of the picture.
-- **Saved progress** — the dog is stored in the browser, so a refresh brings it back.
-- **Start Over** — asks for confirmation, then deletes the saved dog.
+- Saved progress: the dog is stored in the browser, so a refresh brings it back.
+- Start Over: asks for confirmation, then deletes the saved dog.
 
 ## How to preview the site
 
