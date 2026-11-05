@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <title>Illustration of a Poodle</title>
+  <!-- floppy ears -->
+  <ellipse cx="56" cy="116" rx="22" ry="38" fill="#e3cdb6"/>
+  <ellipse cx="144" cy="116" rx="22" ry="38" fill="#e3cdb6"/>
+  <!-- head -->
+  <ellipse cx="100" cy="104" rx="50" ry="48" fill="#f4e5d3"/>
+  <!-- curly topknot -->
+  <circle cx="100" cy="52" r="19" fill="#f9efdf"/>
+  <circle cx="78" cy="62" r="14" fill="#f9efdf"/>
+  <circle cx="122" cy="62" r="14" fill="#f9efdf"/>
+  <circle cx="66" cy="80" r="11" fill="#f9efdf"/>
+  <circle cx="134" cy="80" r="11" fill="#f9efdf"/>
+  <!-- muzzle -->
+  <ellipse cx="100" cy="132" rx="30" ry="24" fill="#fdf8f0"/>
+  <!-- nose -->
+  <ellipse cx="100" cy="120" rx="11" ry="8" fill="#3b3029"/>
+  <ellipse cx="96.5" cy="117.5" rx="3" ry="2.2" fill="#6d6159"/>
+  <!-- eyes -->
+  <circle cx="77" cy="97" r="7" fill="#3b3029"/>
+  <circle cx="123" cy="97" r="7" fill="#3b3029"/>
+  <circle cx="79.5" cy="94.5" r="2.5" fill="#ffffff"/>
+  <circle cx="125.5" cy="94.5" r="2.5" fill="#ffffff"/>
+  <!-- smile -->
+  <path d="M100 128v5M100 133c-4 6-11 6-15 0M100 133c4 6 11 6 15 0" stroke="#3b3029" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>
