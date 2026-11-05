@@ -52,6 +52,58 @@
         </article>
       </div>
     </section>
+
+    <!-- Round 2: adopt one dog and look after it -->
+    <section class="section" aria-labelledby="park-title">
+      <h2 id="park-title">My Virtual Dog</h2>
+
+      <form class="adopt-form" id="adopt-form" novalidate>
+        <div class="field">
+          <label for="breed">Breed</label>
+          <select id="breed" name="breed">
+            <option value="beagle">Beagle</option>
+            <option value="golden-retriever">Golden Retriever</option>
+            <option value="poodle">Poodle</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="dog-name">Dog name</label>
+          <input id="dog-name" name="dogName" type="text" maxlength="20"
+                 placeholder="e.g. Buddy" autocomplete="off">
+          <p class="hint">Up to 20 characters.</p>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Adopt</button>
+
+        <p class="message" id="form-message" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="dog-card" id="dog-card" hidden>
+        <div class="dog-portrait">
+          <img id="dog-picture" src="assets/beagle.svg" alt="Illustration of your adopted dog"
+               width="200" height="200">
+        </div>
+
+        <div class="dog-details">
+          <p class="dog-name" id="dog-name-display"></p>
+          <p class="stat"><span class="label">Breed:</span> <span id="dog-breed"></span></p>
+          <p class="stat"><span class="label">Day:</span> <span id="dog-day"></span></p>
+          <p class="stat"><span class="label">Growth stage:</span> <span id="dog-stage"></span></p>
+          <p class="stat"><span class="label">Happiness:</span> <span id="dog-happiness"></span></p>
+
+          <div class="happiness-track" id="happiness-track" role="progressbar"
+               aria-label="Happiness" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+            <div class="happiness-fill" id="happiness-fill"></div>
+          </div>
+
+          <div class="button-row">
+            <button type="button" class="btn btn-primary" id="feed-button">Feed</button>
+            <button type="button" class="btn btn-primary" id="play-button">Play</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
