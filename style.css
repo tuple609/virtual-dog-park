@@ -209,6 +209,17 @@ input[type="text"]:focus {
   outline-offset: 2px;
 }
 
+.btn-quiet {
+  color: var(--ink-soft);
+  background: #f2eef6;
+  border-color: #ddd3e7;
+}
+
+.btn-quiet:hover {
+  color: var(--ink);
+  background: #e9e2f1;
+}
+
 .dog-card {
   display: flex;
   gap: 22px;
@@ -257,12 +268,43 @@ input[type="text"]:focus {
   font-weight: 600;
 }
 
+.growth-track,
 .happiness-track {
   height: 10px;
-  margin: 8px 0 18px;
+  margin: 6px 0 16px;
   overflow: hidden;
   background: #ece5f3;
   border-radius: 999px;
+}
+
+.growth-fill {
+  width: 33%;
+  height: 100%;
+  background: #a9c98d;
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+/* The dog picture grows with the stage, so growth is visible at a glance */
+.dog-card[data-stage="Puppy"] .dog-portrait img {
+  max-width: 112px;
+}
+
+.dog-card[data-stage="Young Dog"] .dog-portrait img {
+  max-width: 131px;
+}
+
+.dog-card[data-stage="Adult Dog"] .dog-portrait img {
+  max-width: 150px;
+}
+
+/* On a phone the portrait is full width, so keep it a neat square */
+@media (max-width: 720px) {
+  .dog-portrait {
+    width: 100%;
+    max-width: 180px;
+    margin: 0 auto;
+  }
 }
 
 .happiness-fill {

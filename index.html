@@ -90,6 +90,12 @@
           <p class="stat"><span class="label">Breed:</span> <span id="dog-breed"></span></p>
           <p class="stat"><span class="label">Day:</span> <span id="dog-day"></span></p>
           <p class="stat"><span class="label">Growth stage:</span> <span id="dog-stage"></span></p>
+
+          <div class="growth-track" id="growth-track" role="progressbar"
+               aria-label="Growth" aria-valuemin="0" aria-valuemax="100" aria-valuenow="33">
+            <div class="growth-fill" id="growth-fill"></div>
+          </div>
+
           <p class="stat"><span class="label">Happiness:</span> <span id="dog-happiness"></span></p>
 
           <div class="happiness-track" id="happiness-track" role="progressbar"
@@ -100,6 +106,8 @@
           <div class="button-row">
             <button type="button" class="btn btn-primary" id="feed-button">Feed</button>
             <button type="button" class="btn btn-primary" id="play-button">Play</button>
+            <button type="button" class="btn btn-primary" id="next-day-button">Next Day</button>
+            <button type="button" class="btn btn-quiet" id="start-over-button">Start Over</button>
           </div>
         </div>
       </div>
